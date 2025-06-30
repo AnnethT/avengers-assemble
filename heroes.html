@@ -4,65 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        table {
+            width: 60%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #2980b9;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(odd) {
+            background-color: #e3eaf1;
+        }
+        td img {
+            margin-top: 5px;
+            max-width: 90px;
+            border-radius: 50%;
+        }
+    </style>
 </head>
-<style>
-    body {
-        background-color: #f0f0f0;
-        font-family: Arial, sans-serif;
-        color: #333;
-    }
-
-    h1 {
-        text-align: center;
-        color: #2c3e50;
-    }
-
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    li {
-        background-color: #ecf0f1;
-        margin: 10px 0;
-        padding: 15px;
-        border-radius: 5px;
-    }
-
-    h3 {
-        margin: 0;
-        color: #2980b9;
-    }
-</style>
 <body>
-    <h1>Vengadores fundadores:</h1>
 
-    <ul>
-        <li>
-            <h3>Iroman</h3>
-        </li>
-        <li>
-            <h3>Thorr</h3>
-        </li>
-        <li>
-            <h3>Hulk</h3>
-        </li>
-        <li>
-            <h3>Avispa</h3>
-        </li>
-        <li>
-            <h3>Atman</h3>
-        </li>
-    </ul>
+    <h1>The Avengers</h1>
+
+    <table>
+        <tr>
+            <th>Vengadores Fundadores</th>
+            <th>Nuevos Vengadores</th>
+        </tr>
+        <tr>
+            <td>
+                <p>Iron Man</p>
+
+                <!-- <img src="./img/Iron man.jpg" alt=""> -->
+            </td>
+            <td> <p>Pantera negra</p>
+                <!-- <img src="./img/Pantera negra.jpg" alt=""> -->
+            </td>
+        </tr>
+        <tr>
+            <td>Thorr
+                <!-- <img src="./img/Thor.jpg" alt=""> -->
+            </td>
+            <td>La viuda negra
+                <!-- <img src="./img/Viuda Negra.jpeg" alt=""> -->
+            </td>
+        </tr>
+        <tr>
+            <td>Hulk
+                <!-- <img src="./img/Hulk.jpg" alt=""> -->
+            </td>
+            <td>Capitan America
+                <!-- <img src="./img/Capitan.jpg" alt=""> -->
+            </td>
+        </tr>
+        <tr>
+            <td>Avispa
+                <!-- <img src="./img/Avispa.jpg" alt=""> -->
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Atman
+                <!-- <img src="./img/Ant Man.jpg" alt=""> -->
+            </td>
+            <td></td>
+        </tr>
+    </table>
+
 </body>
-
-<h2>Nuevos vengadores</h2>
-
-<ul>
-    <li>
-        Capitan America
-    </li>
-    <img src="./img/Capitan.jpg" alt="">
-</ul>
-
 </html>
